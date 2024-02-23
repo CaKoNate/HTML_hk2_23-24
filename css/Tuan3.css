@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.begin>h1
+{
+    color: crimson;
+    display: flex;
+    font-style: italic;
+    text-shadow:9px 9px indianred;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.wrapper
+{
+    height: 680px;
+    width: 100%;
+    
+}
+header
+{   
+    height: 80px;
+    width: 100%;
+    padding-left: 400px;
+     padding-top: 20px;
+    background-color: lightcoral;
+}
+.menu li
+{
+    float: left;
+    display: flex;
+    text-align: center;
+    text-indent: 60px;
+    list-style: none;
+    color: whitesmoke;
+    border-right: 2px solid blue;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.pic
+{
+    width: 35px;
+    height: 35px;
+    border-right: 2px solid blue;
+    float: left;     
+   
+}
+.menu>input
+{
+    margin-left: 40px;
+}
+content
+{
+    height: 520px;
+    width: 100%;
+    display: flex;
+}
+nav
+{
+    flex-basis: 25%;
+    background-color: white;
+    
+}
+.pic_2
+{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 9px 15px #FFC0CB;
+    margin-top: 20px;
+}
+.op li
+{
+    color: white;
+    background-color: lightcoral;
+    list-style: none;
+    border: 1px solid;
+    border-radius: 14px;
+    line-height: 30px;
+    margin-top: 6px;
+    text-indent: 15px;
+    margin-right: 50px;
+}
+section
+{
+    flex-basis: 50%;
+    padding-left: 15px;
+}
+section>h2
+{
+    font-size: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+    padding: 4px;
+    background-color: lightcoral;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+aside
+{
+    flex-basis: 25%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.yello p
+{
+    color: yellow;
+}
+ins
+{
+    color: red;
+}
+.red
+{
+    
+    color: red;
+}
+.adjustation input
+{
+    margin-top: 6px;
+    margin-right: 10px;
+    padding-right: 100px;
+}
+.adjustation select
+{
+    padding-right: 217px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+aside>h1
+{
+    color: aliceblue;
+    text-shadow: none;
+    font-size: 30px;
+}
+aside>h2
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: aliceblue;
+    text-shadow: none;
+    font-size: 20px;
+}
+aside>img
+{
+    margin-left: 20px;
+}
+.cl1
+{
+    color: aliceblue;   
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+footer
+{
+    height: 80px;
+    width: 100%;
+    background-color: lightcoral;
+}
+footer>p
+{
+    color: aliceblue;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
