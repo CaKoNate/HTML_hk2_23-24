@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+            font-family: Verdana, Arial , sans-serif;
+            font-size: 11px;
+        }
+        .wrapper
+        {
+            height: 700px;
+            width: 600px;
+           
+
+        }
+        nav
+        {
+            height: 670px;
+            width: 200px;                                                                                                               
+            float: left;
+            background-color: #800080;
+        }
+        header
+        {               
+            height: 200px;
+            width: 400px;
+            float: left;
+            position: relative;
+       
+        }
+        header_1
+        {                                                                                                                                                                                                                                                                                                                                                                                                                           
+            height: 100px;
+            width: 400px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header_2
+        {
+            height: 100px;
+            width: 400px;
+            background-color: rgb(16, 7, 63);
+            top: 100px;
+            position: absolute;
+        }
+        section
+        {
+            height: 400px;
+            width: 395px;
+            float: left;
+            position: relative;
+        }
+        footer
+        {
+            height: 100px;
+            width: 400px;
+            float: left;
+        }
+        .hdr img
+        {
+            width: 250px;
+            height: 100px;
+            float: left;
+            margin-left: 0px;
+        }
+        .hdr p
+        {
+            width: 86px;
+            height: 80px;
+            text-align: center;
+            background-color: #800080;
+            line-height: 200%;
+            margin-right: 10px; 
+        }
+        .menu
+        {
+            color: aliceblue;
+            font-size: 30px;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            padding: 25px;
+        }
+        .menu_1 li
+        {
+            text-align: right;    
+            line-height: 25px;
+            font-size: 15px;
+            border-bottom: 3px solid rgb(235, 231, 231);
+            padding-top: 9px;
+            width: 186px;
+            list-style: none;
+        }
+        .menu_1 li a
+        {
+            text-decoration: none;
+        }
+        .menu_1 li:hover
+        {   
+            color: yellow;
+            border-color: red;
+        }
+        form>input
+        {
+            height: 30px;
+            width: 180px;
+            font-size: 24px;
+            color: grey;
+            margin-top: 10px;
+            margin-left: 7px;
+        }
+        select
+        {
+            height: 30px;
+            width: 183px;
+            margin-top: 10px;
+            margin-left: 7px;
+        }
+        button
+        {
+            float: right;
+            margin-top: 10px;
+            margin-right: 9px;
+            padding: 5px 15px;
+            clear: both;
+            font: bold;
+        }
+        input::placeholder {
+            color: #2f0c7a; 
+        }
+        .sub-menu li
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 200%;
+            color: #800080;
+        }
+        .sub-menu 
+        {
+            border-bottom: 2px solid green;
+            border-top: 2px solid green;
+        }
+        /* .section_1
+        {
+           
+            border-bottom: 2px solid green;
+            border-top: 2px solid green;
+            height: 55px;
+            width: 170px;
+            text-align: center;
+            float: left;
+            margin-bottom: 0;
+        } */
+        /* .section_2
+        {
+            float: left;           
+        }  */
+        .section_3
+         {
+            position: absolute;
+            bottom: 20px;
+            right: 0%;
+            list-style: none;
+         }
+         .hdr img
+         {
+            position: absolute;
+         }
+         #a{
+    float: left;
+    margin-top: 35px;
+    
+}
+    #bn{
+        float: left;
+        padding-left: 10p;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <p class="menu">
+                Contents
+            </p>
+            <ul class="menu_1">
+                <li>HOME</li>
+                <li>SUBSCRIPTIONS</li>
+                <li>CONTACT US</li>
+                <li>WEATHER</li>
+                <li>ENTERTAINMENT</li>
+                <form action="https://httpbin.org/anything" method="post">
+                    <label for="ID"></label>
+                    <input type="text" id="ID" name="ID Member" placeholder="ID Member">
+                    <label for="choose"></label>
+                    <select name="Choose" id="choose" >
+                        <option value="Choose">Choose...</option>
+                        <option value="APF school">APF school</option>
+                        <option value="WSC school">WSC school</option>
+                        <option value="WTD school">WTD school</option>
+                        <option value="Kingside school">Kingside school</option>
+                    </select>
+                    <button type="submit" >
+                        Finish
+                    </button>
+                </form>
+                
+            </ul>
+        </nav>
+        <header>
+            <header_1 class="hdr">
+                <img "../img/header_1_new.png" alt="">
+                <p> Contact us today to place your ad </p>
+            </header_1>
+            <header_2>
+                <img src="../img/header2.png" alt="" width="415px" height="100px">
+            </header_2>
+        </header>
+
+
+        <section>
+            <div id="a">
+                <img src="../img/section.png" width="220px" height="120px">
+            </div>
+            
+            <div class="section_1 " >
+               <p style="color: aqua;">Park Opens</p>
+                <br><br>
+                12/6/2020
+                <div class="section_2">
+                    The Adventure Island theme
+                    park opened its doors on Monday near Ridgewood.
+                    The park, one of the biggest
+                    in New Jersey, drew large 
+                    crowds, but the long lines
+                    The Adventure Island theme
+                    park opened its doors on
+                   
+                        Monday near Ridgewood.
+                        The park, one of the biggest
+                        in New Jersey, drew large 
+                        crowds, but the long lines 
+                        didn't deter anyone. "I've 
+                        been watching them put up the rides over the last year, it's really exciting to
+                        finally get inside the gates!" said Ridgewood resident, Denise Brooks.
+                    
+                  
+                </div>
+            </div>
+            
+            <div class="section_3">
+                <li><a href="#">Read more...</a></li>
+            </div>
+        </section>
+
+
+        <footer>
+            <ul class="sub-menu">
+                <li>MSSV:22701511</li>
+                <li>Họ tên:Nguyễn Khánh An Bình</li>
+                <li>Lớp:DHCNTT18ATT</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
